@@ -1,0 +1,22 @@
+version: "3.7"
+services: 
+    build:
+        image: jekyll/jekyll
+        container_name: jekyll_build
+        tty: true
+        command: jekyll build
+        environment: 
+            - JEKYLL_ENV=production
+        ports:
+            - 80:4000
+        volumes:
+            - $PWD:/srv/jekyll
+    serve:
+        image: jekyll/jekyll
+        container_name: jekyll_serve
+        tty: true
+        command: jekyll serve
+        ports:
+            - 80:4000
+        volumes:
+            - $PWD:/srv/jekyll

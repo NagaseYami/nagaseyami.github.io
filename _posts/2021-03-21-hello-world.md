@@ -5,11 +5,12 @@ categories: [其他]
 tags: [chirpy, jekyll]
 pin: true
 ---
-# Hello, world!
+
 您好，我是长濑暗，是一个随处可见的程序员  
 这个博客主要用于记录各种我记不住的东西，如果你有兴趣，欢迎到处看看  
 
 ## 博客的意义
+
 - 记录一些有需要但是不常用的东西
   - Cheat Sheet
 - 记录学到的知识
